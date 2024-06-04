@@ -1,9 +1,9 @@
 {
   "name": "storypug",
   "description": "A set of utilities to ease using pug templates in Storybook",
-  "version": "1.0.0-rc.8",
+  "version": "1.0.0-rc.9",
   "author": "Marco Solazzi",
-  "homepage": "https://github.com/dwightjack/storypug",
+  "homepage": "https://github.com/pendalf/storypug",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
   "license": "MIT",
