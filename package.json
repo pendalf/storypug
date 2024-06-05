@@ -33,9 +33,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwightjack/storypug.git"
+    "url": "https://github.com/pendalf/storypug.git"
   },
-  "bugs": "https://github.com/dwightjack/storypug/issues",
+  "bugs": "https://github.com/pendalf/storypug/issues",
   "devDependencies": {
     "del": "^5.1.0",
     "eslint": "^6.7.2",
