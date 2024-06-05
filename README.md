@@ -35,7 +35,7 @@ First of all, setup Storybook for HTML following [this guide](https://storybook.
 Then you need to install both `pug` and `pug-runtime` alongside `storypug`:
 
 ```sh
-npm i pug pug-runtime storypug -D
+npm i pug pug-runtime @pendalf/storypug -D
 ```
 
 **Note:** If you're using ES6+ features inside pug templates (like `const` and `() => {}`) and want to target older browsers you need to install `babel-loader` as well.
