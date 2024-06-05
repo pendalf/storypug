@@ -1,5 +1,5 @@
 {
-  "name": "storypug",
+  "name": "@pendalf/storypug",
   "description": "A set of utilities to ease using pug templates in Storybook",
   "version": "1.0.0-rc.9",
   "author": "Marco Solazzi",
