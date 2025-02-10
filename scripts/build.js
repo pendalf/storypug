@@ -1,11 +1,11 @@
-const { resolve } = require('path');
-const bundle = require('microbundle');
-const del = require('del');
+import { resolve  } from 'path';
+import bundle from 'microbundle';
+import { deleteAsync } from 'del';
 (async function() {
-  const cwd = resolve(__dirname, '..');
+  const cwd = resolve(process.cwd(), '');
 
   try {
-    await del(['dist/**/*'], { cwd });
+    await deleteAsync(['dist/**/*'], { cwd });
     const output = await bundle({
       entries: ['./src/index.js'],
       format: 'cjs,es',
