@@ -1,7 +1,7 @@
 {
   "name": "@pendalf/storypug",
   "description": "A set of utilities to ease using pug templates in Storybook",
-  "version": "1.0.0-rc.14",
+  "version": "1.0.0-rc.15",
   "homepage": "https://github.com/pendalf/storypug",
   "main": "dist/index.js",
   "type": "module",
